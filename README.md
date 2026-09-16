@@ -12,6 +12,18 @@ STAT-DS
 `python3 -m venv .venv`
 Create thr new python environment named `.venv`.
 
+if the `.vene` can't be activated and terminal show error 
+<span style="color: #c678dd; font-weight: bold;">KeyboardInterrupt</span> TRY THIS :
+```
+rm -rf .venv
+```
+```
+python3 -m venv .venv
+```
+```
+source .venv/bin/activate
+````
+
 the first python script file name `app.py`
 ```
 import pandas
