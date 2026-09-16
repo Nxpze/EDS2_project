@@ -22,3 +22,16 @@ df = pandas.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 print('DataFrame created:')
 print(df)
 ```
+- install streamlit web application package 
+```
+pip3 install streamlit
+```
+
+- Run streamlit script file 
+```
+streamlit run <app-name.py>
+```
+- Stop web application use
+```
+ctl C
+```
