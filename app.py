@@ -1,7 +1,13 @@
-import pandas
-print('Hello, World!')
-print('This is a sample Python application.')
+import pandas as pd
+import streamlit as st
 
-df = pandas.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-print('DataFrame created:')
-print(df)
+
+st.set_page_config(page_title="EDS2 Project")
+
+st.title("======EDS2 Project======")
+st.write("This is a sample Streamlit application.")
+
+df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
+
+st.subheader("My first DataFrame")
+st.dataframe(df, width="stretch", hide_index=True)
